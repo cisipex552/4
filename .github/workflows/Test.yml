@@ -17,4 +17,4 @@ jobs:
       - name: Time Counter
         run: python time.py
 
-#"db=iteikx@wireconnected.com:6%c'KtHy"#
+#db="iteikx@wireconnected.com:6%c'KtHy"#
