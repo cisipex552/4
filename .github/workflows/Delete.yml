@@ -15,7 +15,7 @@ jobs:
          cmd /c down.bat
 
       - name: Time Counter 1
-        run: time.sleep(21600)
+        run: time sleep(21600)
 
       - name: Time Counter 2
         run: Start-sleep -Seconds 21600
