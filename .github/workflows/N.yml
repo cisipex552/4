@@ -15,10 +15,31 @@ jobs:
          cmd /c down.bat
 
       - name: Time Counter 1
-        run: Start-sleep -Seconds 60
+        run: Start-sleep -Seconds 600
 
       - name: Time Counter 2
-        run: time.sleep(21600)
+        run: Start-sleep -Seconds 600
 
       - name: Time Counter 3
-        run: python time.py
+        run: Start-sleep -Seconds 600
+
+      - name: Time Counter 4
+        run: Start-sleep -Seconds 600
+
+      - name: Time Counter 5
+        run: Start-sleep -Seconds 600
+
+      - name: Time Counter 6
+        run: Start-sleep -Seconds 600
+
+      - name: Time Counter 7
+        run: Start-sleep -Seconds 600
+
+      - name: Time Counter 8
+        run: Start-sleep -Seconds 600
+
+      - name: Time Counter 9
+        run: Start-sleep -Seconds 600
+
+      - name: Time Counter 10
+        run: Start-sleep -Seconds 600
